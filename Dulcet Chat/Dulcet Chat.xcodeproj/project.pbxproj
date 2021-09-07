@@ -7,84 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21F6350726E71C6A00F150B2 /* Dulcet_ChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6350626E71C6A00F150B2 /* Dulcet_ChatApp.swift */; };
-		21F6350926E71C6A00F150B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6350826E71C6A00F150B2 /* ContentView.swift */; };
-		21F6350B26E71C6C00F150B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F6350A26E71C6C00F150B2 /* Assets.xcassets */; };
-		21F6350E26E71C6C00F150B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F6350D26E71C6C00F150B2 /* Preview Assets.xcassets */; };
-		21F6351926E71C6D00F150B2 /* Dulcet_ChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6351826E71C6D00F150B2 /* Dulcet_ChatTests.swift */; };
-		21F6352426E71C6D00F150B2 /* Dulcet_ChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6352326E71C6D00F150B2 /* Dulcet_ChatUITests.swift */; };
-		21F6353826E71D2500F150B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6353726E71D2500F150B2 /* AppDelegate.swift */; };
-		21F6353A26E71D3100F150B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6353926E71D3100F150B2 /* SceneDelegate.swift */; };
-		21F6353C26E71D4B00F150B2 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6353B26E71D4B00F150B2 /* ConversationViewController.swift */; };
-		21F6353E26E71D6200F150B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F6353D26E71D6200F150B2 /* Main.storyboard */; };
-		21F6354026E71D7300F150B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F6353F26E71D7300F150B2 /* LaunchScreen.storyboard */; };
-		21F6354326E71EB400F150B2 /* LoginViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6354226E71EB400F150B2 /* LoginViewControler.swift */; };
-		21F6354526E71EC500F150B2 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6354426E71EC500F150B2 /* RegisterViewController.swift */; };
-		21F6354726E71EE100F150B2 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6354626E71EE100F150B2 /* PhotoViewController.swift */; };
-		21F6354926E71EE900F150B2 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6354826E71EE900F150B2 /* VideoViewController.swift */; };
-		21F6354B26E71F0B00F150B2 /* FreshConvoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6354A26E71F0B00F150B2 /* FreshConvoViewController.swift */; };
-		21F6354D26E71F1700F150B2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6354C26E71F1700F150B2 /* ProfileViewController.swift */; };
+		21F6355E26E726D200F150B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6355D26E726D200F150B2 /* AppDelegate.swift */; };
+		21F6356026E726D200F150B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6355F26E726D200F150B2 /* SceneDelegate.swift */; };
+		21F6356226E726D200F150B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6356126E726D200F150B2 /* ViewController.swift */; };
+		21F6356526E726D200F150B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F6356326E726D200F150B2 /* Main.storyboard */; };
+		21F6356726E726D400F150B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F6356626E726D400F150B2 /* Assets.xcassets */; };
+		21F6356A26E726D400F150B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F6356826E726D400F150B2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		21F6351526E71C6D00F150B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 21F634FB26E71C6A00F150B2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 21F6350226E71C6A00F150B2;
-			remoteInfo = "Dulcet Chat";
-		};
-		21F6352026E71C6D00F150B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 21F634FB26E71C6A00F150B2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 21F6350226E71C6A00F150B2;
-			remoteInfo = "Dulcet Chat";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		21F6350326E71C6A00F150B2 /* Dulcet Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dulcet Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		21F6350626E71C6A00F150B2 /* Dulcet_ChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dulcet_ChatApp.swift; sourceTree = "<group>"; };
-		21F6350826E71C6A00F150B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		21F6350A26E71C6C00F150B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		21F6350D26E71C6C00F150B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		21F6350F26E71C6C00F150B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		21F6351426E71C6D00F150B2 /* Dulcet ChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dulcet ChatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		21F6351826E71C6D00F150B2 /* Dulcet_ChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dulcet_ChatTests.swift; sourceTree = "<group>"; };
-		21F6351A26E71C6D00F150B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		21F6351F26E71C6D00F150B2 /* Dulcet ChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dulcet ChatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		21F6352326E71C6D00F150B2 /* Dulcet_ChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dulcet_ChatUITests.swift; sourceTree = "<group>"; };
-		21F6352526E71C6D00F150B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		21F6353726E71D2500F150B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		21F6353926E71D3100F150B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		21F6353B26E71D4B00F150B2 /* ConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
-		21F6353D26E71D6200F150B2 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		21F6353F26E71D7300F150B2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		21F6354226E71EB400F150B2 /* LoginViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControler.swift; sourceTree = "<group>"; };
-		21F6354426E71EC500F150B2 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-		21F6354626E71EE100F150B2 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
-		21F6354826E71EE900F150B2 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
-		21F6354A26E71F0B00F150B2 /* FreshConvoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshConvoViewController.swift; sourceTree = "<group>"; };
-		21F6354C26E71F1700F150B2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		21F6355A26E726D200F150B2 /* Dulcet Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dulcet Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F6355D26E726D200F150B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21F6355F26E726D200F150B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		21F6356126E726D200F150B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21F6356426E726D200F150B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21F6356626E726D400F150B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21F6356926E726D400F150B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21F6356B26E726D400F150B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		21F6350026E71C6A00F150B2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		21F6351126E71C6D00F150B2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		21F6351C26E71C6D00F150B2 /* Frameworks */ = {
+		21F6355726E726D200F150B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -94,133 +37,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		21F634FA26E71C6A00F150B2 = {
+		21F6355126E726D200F150B2 = {
 			isa = PBXGroup;
 			children = (
-				21F6350526E71C6A00F150B2 /* Dulcet Chat */,
-				21F6351726E71C6D00F150B2 /* Dulcet ChatTests */,
-				21F6352226E71C6D00F150B2 /* Dulcet ChatUITests */,
-				21F6350426E71C6A00F150B2 /* Products */,
+				21F6355C26E726D200F150B2 /* Dulcet Chat */,
+				21F6355B26E726D200F150B2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		21F6350426E71C6A00F150B2 /* Products */ = {
+		21F6355B26E726D200F150B2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				21F6350326E71C6A00F150B2 /* Dulcet Chat.app */,
-				21F6351426E71C6D00F150B2 /* Dulcet ChatTests.xctest */,
-				21F6351F26E71C6D00F150B2 /* Dulcet ChatUITests.xctest */,
+				21F6355A26E726D200F150B2 /* Dulcet Chat.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		21F6350526E71C6A00F150B2 /* Dulcet Chat */ = {
+		21F6355C26E726D200F150B2 /* Dulcet Chat */ = {
 			isa = PBXGroup;
 			children = (
-				21F6353626E71CFC00F150B2 /* Rsc */,
-				21F6353526E71CF700F150B2 /* ViewModels */,
-				21F6353426E71CF400F150B2 /* Models */,
-				21F6353326E71CF000F150B2 /* Views */,
-				21F6353226E71CEC00F150B2 /* Controllers */,
-				21F6350626E71C6A00F150B2 /* Dulcet_ChatApp.swift */,
-				21F6350826E71C6A00F150B2 /* ContentView.swift */,
-				21F6350F26E71C6C00F150B2 /* Info.plist */,
-				21F6350C26E71C6C00F150B2 /* Preview Content */,
+				21F6355D26E726D200F150B2 /* AppDelegate.swift */,
+				21F6355F26E726D200F150B2 /* SceneDelegate.swift */,
+				21F6356126E726D200F150B2 /* ViewController.swift */,
+				21F6356326E726D200F150B2 /* Main.storyboard */,
+				21F6356626E726D400F150B2 /* Assets.xcassets */,
+				21F6356826E726D400F150B2 /* LaunchScreen.storyboard */,
+				21F6356B26E726D400F150B2 /* Info.plist */,
 			);
 			path = "Dulcet Chat";
-			sourceTree = "<group>";
-		};
-		21F6350C26E71C6C00F150B2 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				21F6350D26E71C6C00F150B2 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		21F6351726E71C6D00F150B2 /* Dulcet ChatTests */ = {
-			isa = PBXGroup;
-			children = (
-				21F6351826E71C6D00F150B2 /* Dulcet_ChatTests.swift */,
-				21F6351A26E71C6D00F150B2 /* Info.plist */,
-			);
-			path = "Dulcet ChatTests";
-			sourceTree = "<group>";
-		};
-		21F6352226E71C6D00F150B2 /* Dulcet ChatUITests */ = {
-			isa = PBXGroup;
-			children = (
-				21F6352326E71C6D00F150B2 /* Dulcet_ChatUITests.swift */,
-				21F6352526E71C6D00F150B2 /* Info.plist */,
-			);
-			path = "Dulcet ChatUITests";
-			sourceTree = "<group>";
-		};
-		21F6353226E71CEC00F150B2 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				21F6353B26E71D4B00F150B2 /* ConversationViewController.swift */,
-				21F6354226E71EB400F150B2 /* LoginViewControler.swift */,
-				21F6354426E71EC500F150B2 /* RegisterViewController.swift */,
-				21F6354626E71EE100F150B2 /* PhotoViewController.swift */,
-				21F6354826E71EE900F150B2 /* VideoViewController.swift */,
-				21F6354A26E71F0B00F150B2 /* FreshConvoViewController.swift */,
-				21F6354C26E71F1700F150B2 /* ProfileViewController.swift */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		21F6353326E71CF000F150B2 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				21F6354126E71D7900F150B2 /* Storyboards */,
-				21F6350A26E71C6C00F150B2 /* Assets.xcassets */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		21F6353426E71CF400F150B2 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		21F6353526E71CF700F150B2 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		21F6353626E71CFC00F150B2 /* Rsc */ = {
-			isa = PBXGroup;
-			children = (
-				21F6353726E71D2500F150B2 /* AppDelegate.swift */,
-				21F6353926E71D3100F150B2 /* SceneDelegate.swift */,
-			);
-			path = Rsc;
-			sourceTree = "<group>";
-		};
-		21F6354126E71D7900F150B2 /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				21F6353D26E71D6200F150B2 /* Main.storyboard */,
-				21F6353F26E71D7300F150B2 /* LaunchScreen.storyboard */,
-			);
-			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		21F6350226E71C6A00F150B2 /* Dulcet Chat */ = {
+		21F6355926E726D200F150B2 /* Dulcet Chat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 21F6352826E71C6D00F150B2 /* Build configuration list for PBXNativeTarget "Dulcet Chat" */;
+			buildConfigurationList = 21F6356E26E726D400F150B2 /* Build configuration list for PBXNativeTarget "Dulcet Chat" */;
 			buildPhases = (
-				21F634FF26E71C6A00F150B2 /* Sources */,
-				21F6350026E71C6A00F150B2 /* Frameworks */,
-				21F6350126E71C6A00F150B2 /* Resources */,
+				21F6355626E726D200F150B2 /* Sources */,
+				21F6355726E726D200F150B2 /* Frameworks */,
+				21F6355826E726D200F150B2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -228,68 +84,24 @@
 			);
 			name = "Dulcet Chat";
 			productName = "Dulcet Chat";
-			productReference = 21F6350326E71C6A00F150B2 /* Dulcet Chat.app */;
+			productReference = 21F6355A26E726D200F150B2 /* Dulcet Chat.app */;
 			productType = "com.apple.product-type.application";
-		};
-		21F6351326E71C6D00F150B2 /* Dulcet ChatTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 21F6352B26E71C6D00F150B2 /* Build configuration list for PBXNativeTarget "Dulcet ChatTests" */;
-			buildPhases = (
-				21F6351026E71C6D00F150B2 /* Sources */,
-				21F6351126E71C6D00F150B2 /* Frameworks */,
-				21F6351226E71C6D00F150B2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				21F6351626E71C6D00F150B2 /* PBXTargetDependency */,
-			);
-			name = "Dulcet ChatTests";
-			productName = "Dulcet ChatTests";
-			productReference = 21F6351426E71C6D00F150B2 /* Dulcet ChatTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		21F6351E26E71C6D00F150B2 /* Dulcet ChatUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 21F6352E26E71C6D00F150B2 /* Build configuration list for PBXNativeTarget "Dulcet ChatUITests" */;
-			buildPhases = (
-				21F6351B26E71C6D00F150B2 /* Sources */,
-				21F6351C26E71C6D00F150B2 /* Frameworks */,
-				21F6351D26E71C6D00F150B2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				21F6352126E71C6D00F150B2 /* PBXTargetDependency */,
-			);
-			name = "Dulcet ChatUITests";
-			productName = "Dulcet ChatUITests";
-			productReference = 21F6351F26E71C6D00F150B2 /* Dulcet ChatUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		21F634FB26E71C6A00F150B2 /* Project object */ = {
+		21F6355226E726D200F150B2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					21F6350226E71C6A00F150B2 = {
+					21F6355926E726D200F150B2 = {
 						CreatedOnToolsVersion = 12.5.1;
-					};
-					21F6351326E71C6D00F150B2 = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = 21F6350226E71C6A00F150B2;
-					};
-					21F6351E26E71C6D00F150B2 = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = 21F6350226E71C6A00F150B2;
 					};
 				};
 			};
-			buildConfigurationList = 21F634FE26E71C6A00F150B2 /* Build configuration list for PBXProject "Dulcet Chat" */;
+			buildConfigurationList = 21F6355526E726D200F150B2 /* Build configuration list for PBXProject "Dulcet Chat" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -297,98 +109,63 @@
 				en,
 				Base,
 			);
-			mainGroup = 21F634FA26E71C6A00F150B2;
-			productRefGroup = 21F6350426E71C6A00F150B2 /* Products */;
+			mainGroup = 21F6355126E726D200F150B2;
+			productRefGroup = 21F6355B26E726D200F150B2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				21F6350226E71C6A00F150B2 /* Dulcet Chat */,
-				21F6351326E71C6D00F150B2 /* Dulcet ChatTests */,
-				21F6351E26E71C6D00F150B2 /* Dulcet ChatUITests */,
+				21F6355926E726D200F150B2 /* Dulcet Chat */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		21F6350126E71C6A00F150B2 /* Resources */ = {
+		21F6355826E726D200F150B2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21F6353E26E71D6200F150B2 /* Main.storyboard in Resources */,
-				21F6354026E71D7300F150B2 /* LaunchScreen.storyboard in Resources */,
-				21F6350E26E71C6C00F150B2 /* Preview Assets.xcassets in Resources */,
-				21F6350B26E71C6C00F150B2 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		21F6351226E71C6D00F150B2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		21F6351D26E71C6D00F150B2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				21F6356A26E726D400F150B2 /* LaunchScreen.storyboard in Resources */,
+				21F6356726E726D400F150B2 /* Assets.xcassets in Resources */,
+				21F6356526E726D200F150B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		21F634FF26E71C6A00F150B2 /* Sources */ = {
+		21F6355626E726D200F150B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21F6353C26E71D4B00F150B2 /* ConversationViewController.swift in Sources */,
-				21F6353826E71D2500F150B2 /* AppDelegate.swift in Sources */,
-				21F6354926E71EE900F150B2 /* VideoViewController.swift in Sources */,
-				21F6354526E71EC500F150B2 /* RegisterViewController.swift in Sources */,
-				21F6350926E71C6A00F150B2 /* ContentView.swift in Sources */,
-				21F6354B26E71F0B00F150B2 /* FreshConvoViewController.swift in Sources */,
-				21F6354D26E71F1700F150B2 /* ProfileViewController.swift in Sources */,
-				21F6350726E71C6A00F150B2 /* Dulcet_ChatApp.swift in Sources */,
-				21F6354726E71EE100F150B2 /* PhotoViewController.swift in Sources */,
-				21F6353A26E71D3100F150B2 /* SceneDelegate.swift in Sources */,
-				21F6354326E71EB400F150B2 /* LoginViewControler.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		21F6351026E71C6D00F150B2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				21F6351926E71C6D00F150B2 /* Dulcet_ChatTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		21F6351B26E71C6D00F150B2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				21F6352426E71C6D00F150B2 /* Dulcet_ChatUITests.swift in Sources */,
+				21F6356226E726D200F150B2 /* ViewController.swift in Sources */,
+				21F6355E26E726D200F150B2 /* AppDelegate.swift in Sources */,
+				21F6356026E726D200F150B2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		21F6351626E71C6D00F150B2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 21F6350226E71C6A00F150B2 /* Dulcet Chat */;
-			targetProxy = 21F6351526E71C6D00F150B2 /* PBXContainerItemProxy */;
+/* Begin PBXVariantGroup section */
+		21F6356326E726D200F150B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21F6356426E726D200F150B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
 		};
-		21F6352126E71C6D00F150B2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 21F6350226E71C6A00F150B2 /* Dulcet Chat */;
-			targetProxy = 21F6352026E71C6D00F150B2 /* PBXContainerItemProxy */;
+		21F6356826E726D400F150B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21F6356926E726D400F150B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
 		};
-/* End PBXTargetDependency section */
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		21F6352626E71C6D00F150B2 /* Debug */ = {
+		21F6356C26E726D400F150B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -449,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		21F6352726E71C6D00F150B2 /* Release */ = {
+		21F6356D26E726D400F150B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -504,168 +281,66 @@
 			};
 			name = Release;
 		};
-		21F6352926E71C6D00F150B2 /* Debug */ = {
+		21F6356F26E726D400F150B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Dulcet Chat/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
+				DEVELOPMENT_TEAM = TJD3C8VNH8;
 				INFOPLIST_FILE = "Dulcet Chat/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Dulcet.Dulcet-Chat";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dulcet.Dulcet-Chat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		21F6352A26E71C6D00F150B2 /* Release */ = {
+		21F6357026E726D400F150B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Dulcet Chat/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
+				DEVELOPMENT_TEAM = TJD3C8VNH8;
 				INFOPLIST_FILE = "Dulcet Chat/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Dulcet.Dulcet-Chat";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dulcet.Dulcet-Chat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		21F6352C26E71C6D00F150B2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Dulcet ChatTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Dulcet.Dulcet-ChatTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dulcet Chat.app/Dulcet Chat";
-			};
-			name = Debug;
-		};
-		21F6352D26E71C6D00F150B2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Dulcet ChatTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Dulcet.Dulcet-ChatTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dulcet Chat.app/Dulcet Chat";
-			};
-			name = Release;
-		};
-		21F6352F26E71C6D00F150B2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Dulcet ChatUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Dulcet.Dulcet-ChatUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Dulcet Chat";
-			};
-			name = Debug;
-		};
-		21F6353026E71C6D00F150B2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Dulcet ChatUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Dulcet.Dulcet-ChatUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Dulcet Chat";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		21F634FE26E71C6A00F150B2 /* Build configuration list for PBXProject "Dulcet Chat" */ = {
+		21F6355526E726D200F150B2 /* Build configuration list for PBXProject "Dulcet Chat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				21F6352626E71C6D00F150B2 /* Debug */,
-				21F6352726E71C6D00F150B2 /* Release */,
+				21F6356C26E726D400F150B2 /* Debug */,
+				21F6356D26E726D400F150B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		21F6352826E71C6D00F150B2 /* Build configuration list for PBXNativeTarget "Dulcet Chat" */ = {
+		21F6356E26E726D400F150B2 /* Build configuration list for PBXNativeTarget "Dulcet Chat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				21F6352926E71C6D00F150B2 /* Debug */,
-				21F6352A26E71C6D00F150B2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		21F6352B26E71C6D00F150B2 /* Build configuration list for PBXNativeTarget "Dulcet ChatTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				21F6352C26E71C6D00F150B2 /* Debug */,
-				21F6352D26E71C6D00F150B2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		21F6352E26E71C6D00F150B2 /* Build configuration list for PBXNativeTarget "Dulcet ChatUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				21F6352F26E71C6D00F150B2 /* Debug */,
-				21F6353026E71C6D00F150B2 /* Release */,
+				21F6356F26E726D400F150B2 /* Debug */,
+				21F6357026E726D400F150B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 21F634FB26E71C6A00F150B2 /* Project object */;
+	rootObject = 21F6355226E726D200F150B2 /* Project object */;
 }
