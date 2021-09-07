@@ -58,6 +58,7 @@ class LoginViewController: UIViewController {
         view.backgroundColor = .white
         title = "Log In"
         
+        loginButton.addTarget(self, action: #selector(didTapLoginButton), for: .touchUpInside)
         
         //subviews here down
         view.addSubview(scrollView)
@@ -77,4 +78,20 @@ class LoginViewController: UIViewController {
         passwordField.frame = CGRect (x:30, y:usernameField.bottom+10, width: scrollView.width-60, height: 52)
         loginButton.frame = CGRect (x:30, y:passwordField.bottom+10, width: scrollView.width-60, height: 52)
     }
+    @objc private func didTapLoginButton(){
+        guard let username = usernameField.text, let password = passwordField.text, !username.isEmpty, !password.isEmpty else{
+            alertLoginError()
+            return
+        }
+        
+        //firebase login here l8r
+    }
+    func alertLoginError(){
+        
+        let alert = UIAlertController(title: "Oh Noes!", message: "Something went wrong! Please enter all your login information.", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Try Again", style: .cancel, handler: nil))
+        present(alert, animated: true)
 }
+}
+
+
