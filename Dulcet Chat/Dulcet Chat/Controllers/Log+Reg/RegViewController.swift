@@ -1,5 +1,5 @@
 //
-//  LoginViewController.swift
+//  RegViewController.swift
 //  Dulcet Chat
 //
 //  Created by 🐱 on 9/7/21.
@@ -7,10 +7,11 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class RegViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .blue
 
         // Do any additional setup after loading the view.
     }
