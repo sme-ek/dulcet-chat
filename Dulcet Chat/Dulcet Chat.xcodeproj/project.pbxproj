@@ -13,6 +13,17 @@
 		21F6350E26E71C6C00F150B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F6350D26E71C6C00F150B2 /* Preview Assets.xcassets */; };
 		21F6351926E71C6D00F150B2 /* Dulcet_ChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6351826E71C6D00F150B2 /* Dulcet_ChatTests.swift */; };
 		21F6352426E71C6D00F150B2 /* Dulcet_ChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6352326E71C6D00F150B2 /* Dulcet_ChatUITests.swift */; };
+		21F6353826E71D2500F150B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6353726E71D2500F150B2 /* AppDelegate.swift */; };
+		21F6353A26E71D3100F150B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6353926E71D3100F150B2 /* SceneDelegate.swift */; };
+		21F6353C26E71D4B00F150B2 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6353B26E71D4B00F150B2 /* ConversationViewController.swift */; };
+		21F6353E26E71D6200F150B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F6353D26E71D6200F150B2 /* Main.storyboard */; };
+		21F6354026E71D7300F150B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F6353F26E71D7300F150B2 /* LaunchScreen.storyboard */; };
+		21F6354326E71EB400F150B2 /* LoginViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6354226E71EB400F150B2 /* LoginViewControler.swift */; };
+		21F6354526E71EC500F150B2 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6354426E71EC500F150B2 /* RegisterViewController.swift */; };
+		21F6354726E71EE100F150B2 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6354626E71EE100F150B2 /* PhotoViewController.swift */; };
+		21F6354926E71EE900F150B2 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6354826E71EE900F150B2 /* VideoViewController.swift */; };
+		21F6354B26E71F0B00F150B2 /* FreshConvoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6354A26E71F0B00F150B2 /* FreshConvoViewController.swift */; };
+		21F6354D26E71F1700F150B2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6354C26E71F1700F150B2 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +56,17 @@
 		21F6351F26E71C6D00F150B2 /* Dulcet ChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dulcet ChatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F6352326E71C6D00F150B2 /* Dulcet_ChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dulcet_ChatUITests.swift; sourceTree = "<group>"; };
 		21F6352526E71C6D00F150B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21F6353726E71D2500F150B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21F6353926E71D3100F150B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		21F6353B26E71D4B00F150B2 /* ConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
+		21F6353D26E71D6200F150B2 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		21F6353F26E71D7300F150B2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21F6354226E71EB400F150B2 /* LoginViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControler.swift; sourceTree = "<group>"; };
+		21F6354426E71EC500F150B2 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		21F6354626E71EE100F150B2 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		21F6354826E71EE900F150B2 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		21F6354A26E71F0B00F150B2 /* FreshConvoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshConvoViewController.swift; sourceTree = "<group>"; };
+		21F6354C26E71F1700F150B2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +117,13 @@
 		21F6350526E71C6A00F150B2 /* Dulcet Chat */ = {
 			isa = PBXGroup;
 			children = (
+				21F6353626E71CFC00F150B2 /* Rsc */,
+				21F6353526E71CF700F150B2 /* ViewModels */,
+				21F6353426E71CF400F150B2 /* Models */,
+				21F6353326E71CF000F150B2 /* Views */,
+				21F6353226E71CEC00F150B2 /* Controllers */,
 				21F6350626E71C6A00F150B2 /* Dulcet_ChatApp.swift */,
 				21F6350826E71C6A00F150B2 /* ContentView.swift */,
-				21F6350A26E71C6C00F150B2 /* Assets.xcassets */,
 				21F6350F26E71C6C00F150B2 /* Info.plist */,
 				21F6350C26E71C6C00F150B2 /* Preview Content */,
 			);
@@ -128,6 +154,61 @@
 				21F6352526E71C6D00F150B2 /* Info.plist */,
 			);
 			path = "Dulcet ChatUITests";
+			sourceTree = "<group>";
+		};
+		21F6353226E71CEC00F150B2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				21F6353B26E71D4B00F150B2 /* ConversationViewController.swift */,
+				21F6354226E71EB400F150B2 /* LoginViewControler.swift */,
+				21F6354426E71EC500F150B2 /* RegisterViewController.swift */,
+				21F6354626E71EE100F150B2 /* PhotoViewController.swift */,
+				21F6354826E71EE900F150B2 /* VideoViewController.swift */,
+				21F6354A26E71F0B00F150B2 /* FreshConvoViewController.swift */,
+				21F6354C26E71F1700F150B2 /* ProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		21F6353326E71CF000F150B2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				21F6354126E71D7900F150B2 /* Storyboards */,
+				21F6350A26E71C6C00F150B2 /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		21F6353426E71CF400F150B2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		21F6353526E71CF700F150B2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		21F6353626E71CFC00F150B2 /* Rsc */ = {
+			isa = PBXGroup;
+			children = (
+				21F6353726E71D2500F150B2 /* AppDelegate.swift */,
+				21F6353926E71D3100F150B2 /* SceneDelegate.swift */,
+			);
+			path = Rsc;
+			sourceTree = "<group>";
+		};
+		21F6354126E71D7900F150B2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				21F6353D26E71D6200F150B2 /* Main.storyboard */,
+				21F6353F26E71D7300F150B2 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +314,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21F6353E26E71D6200F150B2 /* Main.storyboard in Resources */,
+				21F6354026E71D7300F150B2 /* LaunchScreen.storyboard in Resources */,
 				21F6350E26E71C6C00F150B2 /* Preview Assets.xcassets in Resources */,
 				21F6350B26E71C6C00F150B2 /* Assets.xcassets in Resources */,
 			);
@@ -259,8 +342,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21F6353C26E71D4B00F150B2 /* ConversationViewController.swift in Sources */,
+				21F6353826E71D2500F150B2 /* AppDelegate.swift in Sources */,
+				21F6354926E71EE900F150B2 /* VideoViewController.swift in Sources */,
+				21F6354526E71EC500F150B2 /* RegisterViewController.swift in Sources */,
 				21F6350926E71C6A00F150B2 /* ContentView.swift in Sources */,
+				21F6354B26E71F0B00F150B2 /* FreshConvoViewController.swift in Sources */,
+				21F6354D26E71F1700F150B2 /* ProfileViewController.swift in Sources */,
 				21F6350726E71C6A00F150B2 /* Dulcet_ChatApp.swift in Sources */,
+				21F6354726E71EE100F150B2 /* PhotoViewController.swift in Sources */,
+				21F6353A26E71D3100F150B2 /* SceneDelegate.swift in Sources */,
+				21F6354326E71EB400F150B2 /* LoginViewControler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
