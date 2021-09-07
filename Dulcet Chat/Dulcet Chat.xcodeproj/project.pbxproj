@@ -14,7 +14,6 @@
 		21F6356726E726D400F150B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F6356626E726D400F150B2 /* Assets.xcassets */; };
 		21F6356A26E726D400F150B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F6356826E726D400F150B2 /* LaunchScreen.storyboard */; };
 		21F6358B26E72ABB00F150B2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6358A26E72ABB00F150B2 /* LoginViewController.swift */; };
-		21F6358D26E72AC900F150B2 /* RegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6358C26E72AC900F150B2 /* RegViewController.swift */; };
 		21F6358F26E72B0300F150B2 /* FreshChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6358E26E72B0300F150B2 /* FreshChatViewController.swift */; };
 		21F6359426E734E300F150B2 /* Extensions .swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6359326E734E300F150B2 /* Extensions .swift */; };
 /* End PBXBuildFile section */
@@ -29,7 +28,6 @@
 		21F6356926E726D400F150B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21F6356B26E726D400F150B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21F6358A26E72ABB00F150B2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		21F6358C26E72AC900F150B2 /* RegViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegViewController.swift; sourceTree = "<group>"; };
 		21F6358E26E72B0300F150B2 /* FreshChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshChatViewController.swift; sourceTree = "<group>"; };
 		21F6359326E734E300F150B2 /* Extensions .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,7 +128,6 @@
 			isa = PBXGroup;
 			children = (
 				21F6358A26E72ABB00F150B2 /* LoginViewController.swift */,
-				21F6358C26E72AC900F150B2 /* RegViewController.swift */,
 			);
 			path = "Log+Reg";
 			sourceTree = "<group>";
@@ -208,7 +205,6 @@
 				21F6358B26E72ABB00F150B2 /* LoginViewController.swift in Sources */,
 				21F6356226E726D200F150B2 /* ChatViewController.swift in Sources */,
 				21F6359426E734E300F150B2 /* Extensions .swift in Sources */,
-				21F6358D26E72AC900F150B2 /* RegViewController.swift in Sources */,
 				21F6358F26E72B0300F150B2 /* FreshChatViewController.swift in Sources */,
 				21F6355E26E726D200F150B2 /* AppDelegate.swift in Sources */,
 				21F6356026E726D200F150B2 /* SceneDelegate.swift in Sources */,

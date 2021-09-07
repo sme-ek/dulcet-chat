@@ -58,7 +58,6 @@ class LoginViewController: UIViewController {
         view.backgroundColor = .white
         title = "Log In"
         
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Register", style: .done, target: self, action: #selector(didTapRegister))
         
         //subviews here down
         view.addSubview(scrollView)
@@ -78,10 +77,4 @@ class LoginViewController: UIViewController {
         passwordField.frame = CGRect (x:30, y:usernameField.bottom+10, width: scrollView.width-60, height: 52)
         loginButton.frame = CGRect (x:30, y:passwordField.bottom+10, width: scrollView.width-60, height: 52)
     }
-    @objc private func didTapRegister(){
-        let vc = RegViewController()
-        vc.title = "Create Account"
-        navigationController?.pushViewController(vc, animated:true)
-    }
-    
 }
